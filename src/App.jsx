@@ -5,16 +5,16 @@ import GameSettings from "./GameSettings";
 import React, { useState, useMemo } from "react";
 import { generateBoardData } from "./generateBoardData";
 
-import catImg from "../img/cat.jpg";
-import dogImg from "../img/dog.jpg";
-import pandaImg from "../img/panda.jpg";
-import koalaImg from "../img/koala.jpg";
-import flamingoImg from "../img/flamingo.jpg";
-import butterflyImg from "../img/butterfly.jpg";
+import catImg from "./img/cat.jpg";
+import dogImg from "./img/dog.jpg";
+import pandaImg from "./img/panda.jpg";
+import koalaImg from "./img/koala.jpg";
+import flamingoImg from "./img/flamingo.jpg";
+import butterflyImg from "./img/butterfly.jpg";
 
-import musicMp3 from "../music/M33 Project - Cool Jazzy Bass & Vibraphone.mp3";
-import coinWav from "../sounds/coin.wav";
-import winWav from "../sounds/win.wav";
+import musicMp3 from "./music/M33 Project - Cool Jazzy Bass & Vibraphone.mp3";
+import coinWav from "./sounds/coin.wav";
+import winWav from "./sounds/win.wav";
 
 export default function App() {
   const [gameParams] = useState(useMemo(() => getGameParams(), []));
