@@ -1,0 +1,83 @@
+body {
+  background-color: gainsboro;
+}
+
+.App2 {
+  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  min-width: 300px;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 8fr 1fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
+  display: grid;
+  grid-template-areas:
+    ". . ."
+    ". header ."
+    ". main ."
+    ". footer ."
+    ". . .";
+  margin: 0px;
+  padding: 0px;
+}
+
+.gameStats {
+  grid-area: header;
+  height: 100%;
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: black;
+}
+
+.stat {
+  outline: 3px solid black;
+  background-color: darkolivegreen;
+  color: ghostwhite;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameBoard {
+  grid-area: main;
+  background-color: coral;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 3px solid black;
+}
+
+.gameFooter {
+  grid-area: footer;
+  background-color: darkolivegreen;
+  height: 100%;
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  outline: 3px solid black;
+}
+
+.restartButton {
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.restartButton:hover {
+  background-color: whitesmoke;
+  color: black;
+}

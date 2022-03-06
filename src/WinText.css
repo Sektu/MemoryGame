@@ -1,0 +1,10 @@
+.winTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.winText {
+  font-family: "Courier New"
+}

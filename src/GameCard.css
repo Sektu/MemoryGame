@@ -1,0 +1,43 @@
+.gameCard {
+  height: 100%;
+  width: 100%;
+  outline: 3px solid black;
+  background-color: black;
+}
+
+.backCardWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backCard {
+  width: 90%;
+  height: 95%;
+  background-color: dimgray;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.frontCardWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontCard {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
